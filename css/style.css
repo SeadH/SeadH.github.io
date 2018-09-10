@@ -1,0 +1,213 @@
+body{
+  font: 15px/1.5 Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #f4f4f4
+}
+
+/* Globac */
+.container{
+  width: 80%;
+  margin: auto;
+  overflow:hidden;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+  }
+
+  .button_1{
+    height: 37px;
+    background: #e8491d;
+    border: 0;
+    padding-left:  20px;
+    padding-right: 20px;
+    color: #ffffff;
+  }
+
+  .clr{
+    clear: right;
+  }
+
+/*Header*/
+
+header{
+  background: #35424a;
+  color: #ffffff;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #e8491d 3px solid;
+
+}
+
+header a{
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+
+
+  header li{
+    float: left;
+    display: inline-block;
+    padding: 0 20px 0 20px;
+  }
+
+  header #branding{
+    float: left;
+  }
+
+  header #branding h1{
+    margin:0;
+  }
+
+header nav{
+  float: right;
+  margin-top: 10px;
+}
+
+header .highlight, header .current a{
+  color: #e8491d;
+  font-weight: bold;
+}
+
+header a:hover{
+  color: #cccccc;
+  font-weight: bold;
+}
+
+/*aboutMe*/
+
+#aboutMe{
+  min-height: 400px;
+  background-image: url("../img/showcase.jpg");
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #ffffff;
+}
+
+#aboutMe h1{
+  margin-top: 100px;
+  font-size: 55px;
+  margin-bottom: 10px;
+}
+
+#aboutMe p{
+  font-size: 20px;
+}
+
+/*message*/
+
+#message{
+  padding-left: 15px;
+  color: white;
+  background: #35424a;
+}
+
+#message h1{
+  float: left;
+}
+
+#message form{
+  float: right;
+  margin-top: 15px;
+}
+
+#message input[type="text"]{
+  padding: 4px;
+  height: 25px;
+  width: 250px;
+}
+
+/*boxes*/
+
+#boxes{
+  margin-top: 10px;
+}
+
+
+#boxes .box{
+  float:left;
+  width: 30%;
+  padding: 10px;
+  text-align: center;
+}
+
+#boxes .box img{
+  width: 90px;
+}
+
+#boxes h1{
+  text-align: center;
+  font-weight: bold;
+  padding: 2px;
+  background-color: #e8491d
+}
+
+#boxes a{
+  color: black;
+  text-decoration: none;
+}
+#boxes a:hover{
+  background: darkorange;
+  background-size: cover;
+}
+
+/*contact*/
+
+#contact {
+    background: url(../img/testimonial.jpg) no-repeat center center;
+    padding: 0;
+    -webkit-background-size: cover;
+    background-size: cover;
+    -moz-background-size: cover;
+    background-attachment: fixed;
+}
+
+    #contact .overlay {
+        background-color: rgba(0,0,0,0.9);
+        padding-top: 90px;
+        min-height: 300px;
+        color: #fff;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+#kontakt{
+text-align: center;
+}
+
+
+
+#address{
+  text-decoration: underline;
+  color: #b8b894
+}
+
+
+#profilna img{
+margin-left: 690px;
+width: 200px;
+}
+
+#image img:hover{
+  border: 2px solid red;
+  background-color: darkorange;
+}
+
+#image img{
+  float: left;
+  width: 50px;
+  padding: 7px;
+  margin-bottom: 10px;
+}
+
+footer{
+  padding: 20px;
+  margin-top: 20px;
+  color: #ffffff;
+  background-color: #e8491d;
+  text-align: center;
+}
